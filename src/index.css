@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6e6;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.gif{
+  width: 550px;
+}
+.cell:hover {
+  background: #ddd;
+}
+.hidden-cell:hover,
+.disabled {
+  background: transparent !important;
+}
+
+
+.hidden-cell {
+  border: none;
+  background: transparent;
+}
+.general-trump-deck{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.field-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+  height: 800px;
+  margin-left: 150px;
+}
+.field-container{
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+.trump-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+
+}
+#panel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btns {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0.2rem;
+  color: #fff;
+  margin: 5px;
+  display: block;
+}
+
+.btn:hover {
+  background: #252525;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.select {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.player-select {
+  padding: 10px 15px;
+  margin: 0 15px;
+}
+
+input[type="range"] {
+  margin-right: 15px;
+}
+.card {
+  display: inline-block;
+  font-family: 'Apple Symbols', sans-serif;
+  font-size: 800%;
+}
+.card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.red{
+  color: red;
+}
+
